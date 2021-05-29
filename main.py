@@ -14,7 +14,7 @@ scaler = pickle.load(open("scaler.pkl","rb"))
 
 def input_page():
     
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.markdown("https://www.stlawrencedentistry.com/wp-content/uploads/2013/07/heart-disease.jpg", unsafe_allow_html=True)
     st.markdown('<p class="big-font"><b>Heart Failure Prediction</b></p>', unsafe_allow_html=True)
    
     
