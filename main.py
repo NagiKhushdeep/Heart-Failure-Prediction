@@ -11,7 +11,7 @@ scaler = pickle.load(open("scaler.pkl","rb"))
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.stlawrencedentistry.com/wp-content/uploads/2013/07/heart-disease.jpg");
+background-image: url("https://theiowastandard.com/wp-content/uploads/2019/01/heartbeat.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
