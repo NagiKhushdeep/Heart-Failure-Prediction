@@ -8,13 +8,22 @@ model = pickle.load(open("heartfailuremodel.pkl","rb"))
 
 scaler = pickle.load(open("scaler.pkl","rb"))
 
-
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://www.stlawrencedentistry.com/wp-content/uploads/2013/07/heart-disease.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+</style>
+'''
 
 
 
 def input_page():
     
-    st.markdown("https://www.stlawrencedentistry.com/wp-content/uploads/2013/07/heart-disease.jpg", unsafe_allow_html=True)
+    st.markdown(page_bg_img, unsafe_allow_html=True)
     st.markdown('<p class="big-font"><b>Heart Failure Prediction</b></p>', unsafe_allow_html=True)
    
     
