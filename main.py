@@ -11,7 +11,7 @@ scaler = pickle.load(open("scaler.pkl","rb"))
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://theiowastandard.com/wp-content/uploads/2019/01/heartbeat.jpg");
+background-image: url("https://th.bing.com/th/id/OIP.incp3UJuGQPhBfgn3iISAwHaEK?pid=ImgDet&rs=1");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
