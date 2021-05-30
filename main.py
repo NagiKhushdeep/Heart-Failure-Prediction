@@ -69,6 +69,7 @@ def input_page():
             
         test=np.array([[age,creatinine_phosphokinase,ejection_fraction,platelets,
                         serum_creatinine,serum_sodium,time]])
+        test = scaler.fit_transform(test)
         result = model.predict(test)[0]
         if result==0:
             st.markdown('<p class="success_class"><b>The patient survives.</b></p>', unsafe_allow_html=True)
